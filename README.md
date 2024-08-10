@@ -1,4 +1,4 @@
-# AzureSentinel
+# Azure Sentinel (SIEM) Lab
 
 <h2>Description</h2>
 Project consists of setting up Azure Sentinel (SIEM) and connecting it to a live virtual machine acting as a honey pot. I will observe live attacks (RDP Brute Force) from all around the world. I will use a custom PowerShell script to look up the attackers Geolocation information and plot it on the Azure Sentinel Map

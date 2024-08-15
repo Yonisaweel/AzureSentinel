@@ -7,119 +7,93 @@ Project consists of setting up Azure Sentinel (SIEM) and connecting it to a live
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>?</b>
-- <b>?</b> 
+- <b>PowerShell</b>
+- <b>ipgeolocation.io</b> 
 
 <h2>Environments Used </h2>
 
-- <b>?</b>
+- <b>Microsoft Azure</b>
 
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Download VirtualBox: <br/>
-<img src="https://i.imgur.com/1wDBSFK.png" height="80%" width="80%" alt="Active Directory Steps"/>
+Create Azure Subscription: <br/>
+<img src="https://i.imgur.com/Ryj3QSg.png" height="40%" width="40%" alt="Active Directory Steps"/>
+<img src="https://i.imgur.com/J9UyvsN.png" height="40%" width="40%" alt="Active Directory Steps"/>
 <br />
 <br />
-Download Windows 10:  <br/>
-<img src="https://i.imgur.com/cjeEatE.png" height="80%" width="80%" alt="Active Directory Steps"/>
+Create Virtual Machine:  <br/>
+<img src="https://i.imgur.com/vInWpJ8.png" height="60%" width="60%" alt="Active Directory Steps"/>
+  <img src="https://i.imgur.com/g2kbtvB.png" height="40%" width="40%" alt="Active Directory Steps"/>
+  <img src="https://i.imgur.com/bqhyNcF.png" height="40%" width="40%" alt="Active Directory Steps"/>
 <br />
 <br />
-Create Our Virtual Machines: <br/>
-<img src="https://i.imgur.com/kM6dSo7.png" height="80%" width="80%" alt="Active Directory Steps"/>
-  <img src="https://i.imgur.com/KLTudBx.png" height="80%" width="80%" alt="Active Directory Steps"/>
-  <img src="https://i.imgur.com/FPVMWwU.png" height="80%" width="80%" alt="Active Directory Steps"/>
+Create Log Analytics Workspace: <br/>
+<img src="https://i.imgur.com/43hhhij.png" height="40%" width="40%" alt="Active Directory Steps"/>
+ <img src="https://i.imgur.com/lXFG3sF.png" height="40%" width="40%" alt="Active Directory Steps"/>
 <br />
 <br />
-Rename Ethernet:  <br/>
-<img src="https://i.imgur.com/ZFhr4hc.png" height="80%" width="80%" alt="Active Directory Steps"/>
-  <img src="https://i.imgur.com/FBo87Nd.png" height="80%" width="80%" alt="Active Directory Steps"/>
+Enable gathering VM logs in Security Center:  <br/>
+<img src="https://i.imgur.com/dXW46eD.png" height="80%" width="80%" alt="Active Directory Steps"/>
+  <img src="https://i.imgur.com/8Rgkbfl.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
 <br />
-Set Up IP addressing:  <br/>
-<img src="https://i.imgur.com/Edqk2T8.png" height="80%" width="80%" alt="Active Directory Steps"/>
+Connect Log Analytics to VM:  <br/>
+<img src="https://i.imgur.com/HBrw453.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
 <br />
-Rename the PC:  <br/>
-<img src="https://i.imgur.com/5p8YYib.png" height="80%" width="80%" alt="Active Directory Steps"/>
+Setup Microsoft Sentinel:  <br/>
+<img src="https://i.imgur.com/AknTfOj.png" height="80%" width="80%" alt="Active Directory Steps"/>
 <br />
 <br />
-Install Active Directory Domain Services:  <br/>
-<img src="https://i.imgur.com/IpYnW5e.png" height="80%" width="80%" alt="Active Directory Steps"/>
-  <img src="https://i.imgur.com/aapgL14.png" height="80%" width="80%" alt="Active Directory Steps"/>
+Log into VM with Remote Desktop:  <br/>
+<img src="https://i.imgur.com/TTIX3lU.png" height="40%" width="40%" alt="Active Directory Steps"/>
+  <img src="https://i.imgur.com/EnG8lGl.jpeg" height="40%" width="40%" alt="Active Directory Steps"/>
 <br />
 <br />
-Post Deployment Configuration:  <br/>
-<img src="https://i.imgur.com/7sjsBRo.png" height="80%" width="80%" alt="Active Directory Steps"/>
-  <img src="https://i.imgur.com/HGDNZca.png" height="80%" width="80%" alt="Active Directory Steps"/>
+Observe Event Viewer Logs in VM:  <br/>
+<img src="https://i.imgur.com/QufTs1i.png" height="80%" width="80%" alt="Active Directory Steps"/>
+  <img src="https://i.imgur.com/5zvQew6.png" height="80%" width="80%" alt="Active Directory Steps"/>
   <br />
 <br />
-Create Our own dedicated Domain:  <br/>
-<img src="https://i.imgur.com/qsf7p1c.png" height="80%" width="80%" alt="Active Directory Steps"/>
+Turn off Windows Firewall on VM:  <br/>
+<img src="https://i.imgur.com/pA7dQgq.jpeg" height="80%" width="80%" alt="Active Directory Steps"/>
+  <img src="https://i.imgur.com/b1gw0RI.png" height="80%" width="80%" alt="Active Directory Steps"/>
   <br />
 <br />
-Create an Organizational Unit:  <br/>
-<img src="https://i.imgur.com/SZKKkf2.png" height="80%" width="80%" alt="Active Directory Steps"/>
+Download PowerShell Script:  <br/>
+<img src="https://i.imgur.com/MgsPGt3.png" height="80%" width="80%" alt="Active Directory Steps"/>
+  <img src="https://i.imgur.com/JJ535gu.png" height="80%" width="80%" alt="Active Directory Steps"/>
   <br />
 <br />
-  Create a New User:  <br/>
-<img src="https://i.imgur.com/JWsHShj.png" height="80%" width="80%" alt="Active Directory Steps"/>
+  Get Geolocation.io API Key:  <br/>
+<img src="https://i.imgur.com/zaYu9Sp.png" height="80%" width="80%" alt="Active Directory Steps"/>
   <br />
 <br />
-Make a Domain Admin:  <br/>
-<img src="https://i.imgur.com/8rjuEkm.png" height="80%" width="80%" alt="Active Directory Steps"/>
-  <img src="https://i.imgur.com/JFQJECE.jpeg" height="80%" width="80%" alt="Active Directory Steps"/>
+Run Script To get Geo Data from attackers:  <br/>
+<img src="https://i.imgur.com/lc0fcKM.png" height="80%" width="80%" alt="Active Directory Steps"/>
   <br />
 <br />
-Routing and Remote Access:  <br/>
-<img src="https://i.imgur.com/W0zCqKM.png" height="80%" width="80%" alt="Active Directory Steps"/>
-  <img src="https://i.imgur.com/373Fl1t.png" height="80%" width="80%" alt="Active Directory Steps"/>
+Create custom log in LAW to bring in our custom log:  <br/>
+<img src="https://i.imgur.com/br9P4QP.png" height="80%" width="80%" alt="Active Directory Steps"/>
+  <img src="https://i.imgur.com/4DnxAyS.png" height="80%" width="80%" alt="Active Directory Steps"/>
+  <img src="https://i.imgur.com/GA0oeWi.png" height="80%" width="80%" alt="Active Directory Steps"/>
+  <img src="https://i.imgur.com/jw2Sbo3.png" height="80%" width="80%" alt="Active Directory Steps"/>
   <br />
 <br />
-Install NAT:  <br/>
-<img src="https://i.imgur.com/X5hZl4h.png" height="80%" width="80%" alt="Active Directory Steps"/>
-  <img src="https://i.imgur.com/7vItjcg.png" height="80%" width="80%" alt="Active Directory Steps"/>
-  <img src="https://i.imgur.com/isib70F.png" height="80%" width="80%" alt="Active Directory Steps"/>
+Create custom fields/extract fields from raw custom log data:  <br/>
+<img src="https://i.imgur.com/ZfV0E8O.png" height="80%" width="80%" alt="Active Directory Steps"/>
   <br />
 <br />
-Set Up a Dhcp Server on our Domain:  <br/>
-<img src="https://i.imgur.com/QMvHO1V.png" height="80%" width="80%" alt="Active Directory Steps"/>
-  <img src="https://i.imgur.com/m09ARAH.png" height="80%" width="80%" alt="Active Directory Steps"/>
+Setup Azure Sentinel map with Latitude and Longitude:  <br/>
+<img src="https://i.imgur.com/vCQo21h.png" height="80%" width="80%" alt="Active Directory Steps"/>
+  <img src="https://i.imgur.com/qv2oLYC.png" height="80%" width="80%" alt="Active Directory Steps"/>
   <br />
 <br />
-DHCP Scope:  <br/>
-<img src="https://i.imgur.com/C8zhxTe.png" height="80%" width="80%" alt="Active Directory Steps"/>
+Honeypot was successful! Attacks from Ukraine/Russia/France/UK:  <br/>
+<img src="https://i.imgur.com/VIld59X.png" height="80%" width="80%" alt="Active Directory Steps"/>
   <br />
 <br />
-Configure DHCP Options:  <br/>
-<img src="https://i.imgur.com/dDdUmEf.png" height="80%" width="80%" alt="Active Directory Steps"/>
-  <br />
-<br />
-Add an IP address for a Router:  <br/>
-<img src="https://i.imgur.com/zBAF3JF.png" height="80%" width="80%" alt="Active Directory Steps"/>
-  <br />
-<br />
-Source Code for the Powershell Script:  <br/>
-<img src="https://i.imgur.com/RUqLiNy.png" height="80%" width="80%" alt="Active Directory Steps"/>
-  <img src="https://i.imgur.com/cfQQKqW.png" height="80%" width="80%" alt="Active Directory Steps"/>
-  <img src="https://i.imgur.com/1dIsqv2.png" height="80%" width="80%" alt="Active Directory Steps"/>
-  <br />
-<br />
-Setting up Windows 10 VM in Virtualbox:  <br/>
-<img src="https://i.imgur.com/QBsDfve.png" height="80%" width="80%" alt="Active Directory Steps"/>
-  <img src="https://i.imgur.com/xzmDzfk.png" height="80%" width="80%" alt="Active Directory Steps"/>
-  <br />
-<br />
-Create a New VM:  <br/>
-<img src="https://i.imgur.com/ELelgrO.png" height="80%" width="80%" alt="Active Directory Steps"/>
-  <br />
-<br />
-Add the Domain Controller:  <br/>
-<img src="https://i.imgur.com/C8gKyS0.png" height="80%" width="80%" alt="Active Directory Steps"/>
-<br />
-<br />
-Address Leases + Showing that CLIENT1 is connected to DNS:  <br/>
-<img src="https://i.imgur.com/2Son4E1.png" height="80%" width="80%" alt="Active Directory Steps"/>
 </p>
 
 <!--
